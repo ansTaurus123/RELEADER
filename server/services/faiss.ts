@@ -1,5 +1,5 @@
 import type { Therapist, TherapistMatchingPayload } from "@shared/schema";
-import { cosineSimilarity } from "./utils";
+import { cosineSimilarity } from "../services/utils";
 import { generateEmbedding } from "./huggingface";
 // Import faiss-node with ES Modules syntax - use the default export
 import faissModule from 'faiss-node';
